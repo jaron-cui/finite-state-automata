@@ -1,0 +1,8 @@
+digraph finite_state_machine {
+	rankdir=LR size="8,5"
+	node [shape=doublecircle]
+	q3
+	INVISIBLE_START [label="" height=0 shape=none width=0]
+	INVISIBLE_START -> q3
+	q3 -> q3 [label="a, b"]
+}
